@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="cU6MJF" name="Tunable1stOrderWDFs" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" headerPath="/Users/mitchschneider_/Desktop/Code/C++/Learning/fxobjects_Schneider">
+  <MAINGROUP id="rBIRB5" name="Tunable1stOrderWDFs">
+    <GROUP id="{79A6E34E-D967-068D-5E1B-440642FA9A68}" name="Source">
+      <FILE id="ursY8E" name="WDF_Filters.h" compile="0" resource="0" file="Source/WDF_Filters.h"/>
+      <FILE id="Bx1plm" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="tJH6q2" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="HZIjYi" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="YSzMRG" name="filters_Schneider.h" compile="0" resource="0"
+            file="../fxobjects_Schneider/filters_Schneider.h"/>
+      <FILE id="wFIhRh" name="fxobjects_Schneider.cpp" compile="1" resource="0"
+            file="../fxobjects_Schneider/fxobjects_Schneider.cpp"/>
+      <FILE id="RxbT12" name="fxobjects_Schneider.h" compile="0" resource="0"
+            file="../fxobjects_Schneider/fxobjects_Schneider.h"/>
+      <FILE id="ZwumGd" name="guiconstants.h" compile="0" resource="0" file="../fxobjects_Schneider/guiconstants.h"/>
+      <FILE id="fcgUwk" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Tunable1stOrderWDFs"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Tunable1stOrderWDFs"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Audio SDKs/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Audio SDKs/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
